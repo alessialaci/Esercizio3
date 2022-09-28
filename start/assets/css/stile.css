@@ -1,0 +1,147 @@
+/* IMPOSTAZIONI GENERALI */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.4em;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+
+/* HEADER */
+
+header {
+    background-color: #00a0c6;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 1.7em;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 1em;
+}
+
+header h2 {
+    font-size: 1.4em;
+    font-variant: small-caps;
+    padding-bottom: 1em;
+}
+
+span {
+    color: #00a0c6;
+    background-color: #ffffff;
+}
+
+/* MAIN */
+
+.titolo {
+    color: #027794;
+    font-size: 1.8em;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 30px 0;
+}
+
+section {
+    margin: 20px;
+    padding-bottom: 70px;
+    border-bottom: 2px dashed #5c5c5c;
+}
+
+figure {
+    text-align: center;
+}
+
+figure img {
+    border: 3px solid #e3e3e3;
+    padding: 10px;
+    width: 370px;
+    height: 215px;
+}
+
+address {
+    margin: 20px 0;
+}
+
+b {
+    font-weight: 700;
+}
+
+blockquote {
+    font-style: italic;
+    font-weight: 600;
+    background-color: #e3e3e3;
+    border-radius: 20px;
+    padding: 40px;
+    margin: 20px 0;
+}
+
+div > h3 {
+    font-size: 1.1em;
+    font-weight: 600;
+    line-height: 3;
+}
+
+ul, dd {
+    margin-left: 40px;
+}
+
+
+/* ELEMENTI NEL MAIN */
+
+hr {
+    height: 7px;
+    background-color: #027794;
+    border: none;
+    margin: 0;
+}
+
+a {
+    color: #ce6054;
+}
+
+mark {
+    color: #ffffff;
+    background-color: #027794;
+}
+
+p strong {
+    color: #027794;
+    font-weight: 600;
+}
+
+dd strong {
+    color: #027794;
+}
+
+
+/* FOOTER */
+
+footer {
+    font-size: 0.7em;
+    color: #ffffff;
+    background-color: #353535;
+    text-align: center;
+}
+
+kbd {
+    color: #ffff00;
+    font-weight: 600;
+    font-style: italic;
+}
+
+footer p:first-child {
+    padding-bottom: 20px;
+}
+
+p small {
+    color: #b0adad;
+}
+
+.small {
+    margin-bottom: 20px;
+}
